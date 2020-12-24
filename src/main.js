@@ -16,6 +16,8 @@ import {
   MenuItem, 
   MenuItemGroup, 
   Input,
+  Breadcrumb,
+  BreadcrumbItem
 } from 'element-ui';
 
 Vue.config.productionTip = false
@@ -31,6 +33,8 @@ Vue.use(Submenu)
 Vue.use(MenuItem)
 Vue.use(MenuItemGroup)
 Vue.use(Input)
+Vue.use(Breadcrumb)
+Vue.use(BreadcrumbItem)
 new Vue({
   router,
   store,
